@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+@plugin "daisyui";
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  background: #111111;
+  background-image: linear-gradient(rgb(41, 41, 41, .7) .1em, transparent .1em), linear-gradient(90deg, rgb(41, 41, 41, .7) .1em, transparent .1em);
+  background-size: 6em 6em;
+}
